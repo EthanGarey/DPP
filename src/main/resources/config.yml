@@ -1,0 +1,27 @@
+maincommand:
+  aliases: #Not the command name, this cannot be changed
+    - duelpvp
+    - dpvp
+  permission: "dpp.maincommand"
+subcommands:
+  reload:
+    usage: "&b/dpp reload"
+    permission: "dpp.sub.reload"
+    permission-message:
+      - "&cYou don't have permission for this command"
+  kits:
+    usage: "&b/dpp kit"
+    permission: "dpp.sub.kit"
+    permission-message:
+      - "&cYou don't have permission for this command"
+Messages:
+  BasicErrors:
+    CommandCannotBeRegistered: "&cThe command {0} could not be registered. Shutting plugin down."
+  ReloadMessage:
+    - " "
+    - "&a&lReload Complete! Thank you for using &3&lDPP&a&l."
+    - " "
+  MustBePlayer:
+    - ""
+    - "&c&lYou must be a player to execute this command!"
+    - ""

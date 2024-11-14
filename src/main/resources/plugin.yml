@@ -1,0 +1,20 @@
+name: DPP
+version: '1.0.0.0'
+load: STARTUP
+main: com.ethannetwork.dPP.DPP
+api-version: '1.21'
+authors: [ EthanGarey ]
+description: Duel PVP ; Best duels plugin
+website: ethannetwork.net
+depend: [ NBTAPI ]
+commands:
+  dpp:
+    description: Duel PVPs main command
+    permission: dpp.maincommand
+    aliases: [ ]
+
+libraries:
+  - "net.kyori:adventure-text-minimessage:4.17.0"
+  - "net.kyori:adventure-text-serializer-legacy:4.17.0"
+  - "net.kyori:adventure-platform-bukkit:4.3.4"
+  - "net.kyori:adventure-api:4.17.0"
